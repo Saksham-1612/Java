@@ -1,4 +1,4 @@
-public class Labelledbreaks {
+public class Star {
     public static void main(String[] args) {
         int n=5;
         outer:
@@ -10,9 +10,9 @@ public class Labelledbreaks {
                 space:
                     while(true)
                     {
-                        System.out.println(" ");
+                        System.out.print(" ");
                         i++;
-                        if (i== n-a)
+                        if (i== a)
                             break space;
                     }
                 star:
@@ -20,7 +20,7 @@ public class Labelledbreaks {
                     {
                         System.out.print(" * ");
                         j++;
-                        if(j==a)
+                        if(j==n-a)
                         {
                             continue outer;
                         }
