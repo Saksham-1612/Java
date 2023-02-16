@@ -7,6 +7,7 @@ public class Weekdays {
 
     public Weekdays(Day day)
     {
+
         this.day=day;
     }
 
