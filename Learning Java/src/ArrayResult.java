@@ -13,7 +13,6 @@ public class ArrayResult {
         }
         for (int x:marks) {
             System.out.print(x+" ");
-
         }
     }
 }
