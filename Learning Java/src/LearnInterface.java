@@ -3,9 +3,9 @@ public class LearnInterface {
         String getGreetings(String name);
 
     }
-    class A implements Greetings{
-        public String getGreetingd(String name){
-            return "Hii"
-        }
-    }
+//    class A implements Greetings{
+//        public String getGreetingd(String name){
+//            return "Hii";
+//        }
+//    }
 }
